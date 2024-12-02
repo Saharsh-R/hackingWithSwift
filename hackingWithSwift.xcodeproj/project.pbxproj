@@ -6,9 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8619A3742CFE7ACE008BB617 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8619A3732CFE7ACA008BB617 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		8619A3602CFD938D008BB617 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = ../MyPlayground.playground; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8619A3652CFD942B008BB617 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8619A3732CFE7ACA008BB617 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -33,6 +38,7 @@
 		8619A3582CFCA07C008BB617 = {
 			isa = PBXGroup;
 			children = (
+				8619A3732CFE7ACA008BB617 /* README.md */,
 				8619A3602CFD938D008BB617 /* MyPlayground.playground */,
 				8619A3672CFD942B008BB617 /* Tests */,
 				8619A3662CFD942B008BB617 /* Products */,
@@ -121,6 +127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8619A3742CFE7ACE008BB617 /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
